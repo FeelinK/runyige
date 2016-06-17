@@ -1,0 +1,339 @@
+*{
+  margin:0;
+  padding:0;
+}
+ul,ol li{
+  list-style: none;
+}
+h1,h2,h3,h4,h5,h6,i,b{
+  font-weight:normal;
+  font-style:normal;
+}
+a {
+  color:#666666;
+  text-decoration: none;
+}
+.header a:hover{
+  color:#779800;
+}
+/*主页面 */
+.person{
+	width:100%;
+	height:1000px;
+  margin:0 auto;
+
+}
+/* 头部 */
+.header {
+  width: 90%;
+  height: 117px;
+  padding-left:90px;
+}
+.header .logo img {
+  float: left;
+  margin-left: -30px;
+  margin-top: -5px;
+}
+.header p {
+  font-size: 28px;
+  line-height: 117px;
+  float: left;
+  color: #656565;
+  margin-right: 132px;
+}
+.header ul li {
+  float: left;
+  width: 120px;
+  height: 74px;
+  margin-top:40px;
+  font-size: 23px;
+  margin-right: 60px;
+  text-align: center;
+  cursor:pointer;
+}
+
+.header ul li:first-child{
+	background: url(../img/规范_03.gif) no-repeat 10px 5px;
+}
+.header ul li:first-child:hover{
+	background: url(../img/loger-1_06.jpg) no-repeat 10px 5px;
+	color:#779800;
+	border-bottom: 2px solid #779800;
+}
+
+.header ul li:nth-of-type(2){
+	background: url(../img/规范_05.gif) no-repeat 10px 5px;
+}
+.header ul li:nth-of-type(2):hover{
+	background: url(../img/loger-2_06.jpg) no-repeat 10px 5px;
+	color:#779800;
+	border-bottom: 2px solid #779800;
+}
+.header ul li:last-child{
+	background: url(../img/规范_07.gif) no-repeat 10px 5px;
+}
+.header ul li:last-child:hover{
+	background: url(../img/loger-3_06.jpg) no-repeat 10px 7px;
+	color:#779800;
+	border-bottom: 2px solid #779800;
+}
+/* 主体 */
+.container{
+  width:100%;
+  height:900px;
+  background-color: #efefef;
+}
+.container h1{
+  color:#767c62;
+  font-size:16px;
+  height:58px;
+  line-height: 58px;
+  width:90%;
+  margin-left:60px;
+  font-weight:normal;
+}
+.container h1 b{
+    float:left;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.container h1 i{
+  float: right;
+}
+.container h3{
+  padding:0;
+  margin:0;
+  width:90%;
+  height:70px;
+  line-height: 70px;
+  margin-left:60px;
+  background: #e6e6e6;
+}
+.container h3 span{
+  margin-left:40px;
+  background: #779800;
+  display: inline-block;
+  width:75px;
+  height:38px;
+  line-height: 38px;
+  text-align: center;
+  color:white;
+  font-size:14px;
+  border-radius: 4px;
+}
+.container h3 i{
+  margin-left:30px;
+  font-style: normal;
+  color:#767c62;
+}
+.container h3 label{
+  float:right;
+  margin-right: 40px;
+  margin-top: 6px;
+}
+.personcont{
+  width:90%;
+  border-radius: 5px;
+  margin-left:60px;
+}
+.personcont{
+  width:90%;
+  height:687px;
+  background: white;
+  border-radius: 5px;
+  margin-left: 60px;
+}
+.personcont .personcont_l{
+  float:left;
+  width:170px;
+  height:587px;
+  position: relative;
+}
+.personcont .personcont_l span{
+  display: inline-block;
+  width:10px;
+  height:10px;
+  border-radius: 10px;
+  background:#efefef;
+  position:absolute;
+  right:-4px;
+  top:45px;
+}
+.personcont .personcont_l ul{
+  height:587px;
+   border-right:1px solid #ccc;
+}
+.personcont .personcont_l ul li{
+  width:170px;
+  text-align: center;
+  font-size:16px;
+  margin-top: 40px;
+ 
+}
+.personcont .personcont_r{
+  float:right;
+  width:970px;
+  height:685px;
+  border-left:1px solid #ccc;
+}
+.personcont .personcont_r h4{
+  width:1030px;
+  height:80px;
+  line-height: 80px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  font-size:18px;
+}
+.personcont .personcont_r h4 b{
+  float:left;
+  padding-left: 35px;
+}
+.personcont .personcont_r h4 i{
+  float:right;
+  padding-right: 35px;
+}
+.personcont .personcont_r ul{
+  float:left;
+  color:#bcbcbc;
+  font-size:16px;
+  margin-left:300px;
+  margin-top: 150px;
+}
+.personcont .personcont_r ul li{
+  margin-top: 10px;
+}
+.personcont .personcont_r ol{
+  float:right;
+  color:#666666;
+  font-size:16px;
+  margin-right:200px;
+  margin-top: 150px;
+}
+.personcont .personcont_r ol li{
+  margin-top: 10px;
+}
+.personcont .personcont_r p{
+  float: left;
+  width:134px;
+  height:137px;
+  margin-left:60px;
+  margin-top:20px;
+}
+
+/* 弹出层 */
+#personeditor{
+  width:100%;
+  height:1000px;
+  position: absolute;
+  left:0;
+  top:0;
+  background: rgba(0,0,0,.5);
+  z-index:999;
+}
+#personeditor-2{
+  width:100%;
+  height:1000px;
+  position: absolute;
+  left:0;
+  top:0;
+  background: rgba(0,0,0,.5);
+  z-index:999;
+}
+.personeditor{
+  width:900px;
+  height:700px;
+  background: white;
+  border-radius: 4px;
+  margin:120px auto;
+}
+.personeditor h3{
+  width:100%;
+  height:75px;
+  line-height: 75px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  font-size:18px;
+  font-weight: normal;
+}
+.personeditor h3 b{
+  float:right;
+  margin-right: 20px;
+}
+.personeditorcont{
+  border:1px solid #ccc;
+  width:800px;
+  height:550px;
+  margin:20px auto;
+}
+.personeditorcont .personeditorcont_l{
+  float:left;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.personeditorcont .personeditorcont_l p{
+  width:134px;
+  height:134px;
+}
+.personeditorcont .personeditorcont_l button{
+  width:105px;
+  height:38px;
+  text-align: center;
+  line-height: 38px;
+  color:white;
+  font-size:16px;
+  border-radius: 4px;
+  border:none;
+  background: #f4ad59;
+  margin-top: 20px;
+  margin-left:15px;
+}
+.personeditorcont .personeditorcont_l span{
+  display: inline-block;
+  color:#bcbcbc;
+  margin-top:10px;
+  margin-left:20px;
+}
+.personeditorcont .personeditorcont_r{
+  float:left;
+  margin-left:60px;
+}
+.personeditorcont .personeditorcont_r h2{
+  width:100%;
+  height:75px;
+  line-height: 75px;
+  font-size:16px;
+  margin-left: 70px;
+}
+.personeditorcont .personeditorcont_r h4{
+  width:400px;
+   margin:0 auto;
+  margin-top: 10px;
+ 
+}
+.personeditorcont .personeditorcont_r h4 b{
+  display: inline-block;
+  width:126px;
+  font-weight: normal;
+  color:#ccc;
+}
+.personborncont .personborncont_r h4 label input{
+  height:30px;
+  border:1px solid #efefef;
+  padding-left: 5px;
+}
+.personborncont .personborncont_r h4 label textarea{
+  border:1px solid #efefef;
+  padding-left: 5px;
+}
+.personeditorcont .personeditorcont_r button{
+  width:95px;
+  height:50px;
+  text-align: center;
+  color:white;
+  font-size:16px;
+  border-radius: 4px;
+  border:none;
+  background: #f4ad59;
+  margin-left:40px;
+  margin-top: 40px;
+}

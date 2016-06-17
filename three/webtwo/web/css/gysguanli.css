@@ -1,0 +1,64 @@
+* {
+	margin:0;
+	padding:0;
+	}
+li{
+	list-style:none;
+	}
+	a {
+		text-decoration: none;
+		color:black;
+	}
+.header {
+  width: 100%;
+  height: 117px;
+  margin: 0 auto;
+}
+.header .logo img {
+  float: left;
+  margin-left: 25px;
+  margin-top: -5px;
+}
+.header p {
+  font-size: 28px;
+  line-height: 117px;
+  float: left;
+  color: #656565;
+  margin-right: 132px;
+}
+.header ul li {
+  float: left;
+  width: 120px;
+  height: 74px;
+  margin-top:40px;
+  font-size: 23px;
+  margin-right: 60px;
+  text-align: center;
+  cursor:pointer;
+}
+
+.header ul li:first-child{
+	background: url(../img/规范_03.gif) no-repeat 10px 5px;
+}
+.header ul li:first-child:hover{
+	background: url(../img/loger-1_06.jpg) no-repeat 10px 5px;
+	color:#779800;
+	border-bottom: 2px solid #779800;
+}
+
+.header ul li:nth-of-type(2){
+	background: url(../img/规范_05.gif) no-repeat 10px 5px;
+}
+.header ul li:nth-of-type(2):hover{
+	background: url(../img/loger-2_06.jpg) no-repeat 10px 5px;
+	color:#779800;
+	border-bottom: 2px solid #779800;
+}
+.header ul li:last-child{
+	background: url(../img/规范_07.gif) no-repeat 10px 5px;
+}
+.header ul li:last-child:hover{
+	background: url(../img/loger-3_06.jpg) no-repeat 10px 7px;
+	color:#779800;
+	border-bottom: 2px solid #779800;
+}
